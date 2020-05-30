@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="module.schema_registry_tocloud - ContEco"
-export CONTECO_DESCRIPTION="The ContEco Confluent Schema Registry to cloud module with managed standard URL."
+export CONTECO_LABEL="module.schema_registry_sasl - ContEco"
+export CONTECO_DESCRIPTION="The ContEco Confluent Schema Registry module. wtih SASL authentication."
 
 export CONTECO_TYPE="module"
-export CONTECO_NAME="schema_registry_tocloud"
+export CONTECO_NAME="schema_registry_sasl"
 export CONTECO_TAG="5.4.0"
 
 export CONTECO_BASE="image.wrapper"

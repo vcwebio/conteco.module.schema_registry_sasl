@@ -14,12 +14,12 @@ COPY ./ /conteco/repo/
 ##### BEGIN image/Dockerfile/env-labels-footer #####
 ENV CONTECO_TYPE="module" \
     CONTECO_NAME="schema_registry_sasl" \
-    CONTECO_TAG="5.4.0" \
+    CONTECO_TAG="6.0.0" \
     CONTECO_BASE="image.wrapper" \
     CONTECO_BUILD="image"
 LABEL io.vcweb.type="module" \
       io.vcweb.name="schema_registry_sasl" \
-      io.vcweb.tag="5.4.0" \
+      io.vcweb.tag="6.0.0" \
       io.vcweb.base="image.wrapper" \
       io.vcweb.build="image" \
       io.vcweb.label="module.schema_registry_sasl - ContEco" \

@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="The ContEco Confluent Schema Registry module. wtih S
 
 export CONTECO_TYPE="module"
 export CONTECO_NAME="schema_registry_sasl"
-export CONTECO_TAG="5.4.0"
+export CONTECO_TAG="6.0.0"
 
 export CONTECO_BASE="image.wrapper"
 export CONTECO_BUILD="image"
